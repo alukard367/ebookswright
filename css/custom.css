@@ -1,0 +1,105 @@
+/* button */
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    background: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 7px 16px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-dark-outline {
+    border-color: #000;
+    color: #000;
+}
+
+.btn-dark-outline:hover {
+    border-color: var(--color-light);
+    color: var(--color-light);
+    background: var(--color-dark);
+}
+
+.btn-dark-outline:active {
+    border-color: var(--color-light);
+    color: var(--color-light);
+    background: rgba(0,0,0.6);
+}
+
+.btn-light-outline {
+    border-color: #fff;
+    color: #fff;
+    background: #000;
+    text-transform: uppercase;
+    margin-top: 6px;
+    font-weight: 600;
+}
+
+.btn-light-outline:hover {
+    border-color: #fff;
+    color: #000;
+    background: #fff;
+    border-color: #000;
+    font-weight: 600;
+}
+
+.btn-light-outline:active {
+    border-color: #fff;
+    color: #000;
+    background: #b4b4b4;
+    border-color: #000;
+}
+
+.btn-dark:hover {
+    background-color: #333;
+}
+
+/* text styling */
+
+.text-center {
+    text-align: center;
+}
+
+.text-xl {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.text-lg {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.text-md {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.text-sm {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* padding */
+
+.py-sm {
+    padding: 10px 0;
+}
+.py-md {
+    padding: 20px 0;
+}
+.py-lg {
+    padding: 40px 0;
+}
+
