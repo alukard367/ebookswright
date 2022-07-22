@@ -1,0 +1,3 @@
+[submodule "ebookswright/index.html"]
+    path = ebookswright/index.html
+    url = git@github.com:alukard367/ebookswright.git
